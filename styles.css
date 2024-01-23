@@ -66,10 +66,13 @@ body {
     
 }
 
-.header-biblioteca ul li a{
+.header-biblioteca ul li {
     display: flex;
     justify-content: space-between;
 }
+
+
+
 
 .nav-padrao{
     background-color: #303030;
