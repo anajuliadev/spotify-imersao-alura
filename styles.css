@@ -133,6 +133,9 @@ body {
     color: #a4a4a4;
     font-size: 10.5px !important;   
 }
+.links-uteis ul li a:hover{
+    text-decoration: underline;
+}
 
 .btn-secondary{
     background-color: transparent;
