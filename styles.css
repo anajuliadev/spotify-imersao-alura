@@ -95,8 +95,6 @@ body {
 
 .btn {
     text-decoration: none;
-    color: #000000;
-    background-color: #ffffff;
     border-radius: 16px;
     padding: 9px 16px;
     font-family: 'DM Sans' , sans-serif;
@@ -109,7 +107,12 @@ body {
 .btn:hover {
     transition: 0.05s all;
     transform: scale(1.05);
+    
+}
 
+.btn-primary {
+    color: #000000;
+    background-color: #ffffff;
 }
 
 .links-uteis {
@@ -144,4 +147,37 @@ body {
 }
 .btn-secondary:hover {
     border: 1px solid #ffffff;
+}
+
+footer{
+    background-image:  linear-gradient( to right , rgb(176, 47, 157) , rgb(183, 71, 183) ,  rgb(24, 122, 201));
+    padding: 10px 20px;
+    margin: 10px;
+    position: fixed;
+    bottom: 0;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+}
+
+.footer_text h3 , .footer_text p{
+    color: #ffffff;
+    font-family: 'DM Sans' , sans-serif;
+    padding: 5px 0;
+}
+
+.footer_text h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer_text p{
+    font-size: 13.5px;
+}
+
+footer .btn {
+    padding: 17px 40px;
+    border-radius: 30px;
 }
