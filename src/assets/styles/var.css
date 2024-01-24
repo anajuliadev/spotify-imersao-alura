@@ -9,6 +9,9 @@
     --light-dark : #121212;
     --gray : #303030;
     --white : #ffffff;
-    --light-gray : #a9a7a7;
+    --light-gray : #9f9f9f;
+
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,07);
 
 }
