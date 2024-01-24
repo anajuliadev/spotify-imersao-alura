@@ -112,6 +112,7 @@ body {
 .btn-primary {
     color: var(--dark);
     background-color: var(--white);
+    border: none;
 }
 
 .links-uteis {
