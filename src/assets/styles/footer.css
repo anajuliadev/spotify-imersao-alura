@@ -1,0 +1,33 @@
+/* HEADER FOOTER */
+
+footer{
+    background-image:  linear-gradient( to right , rgb(176, 47, 157) , rgb(183, 71, 183) ,  rgb(24, 122, 201));
+    padding: 10px 20px;
+    margin: 10px;
+    position: fixed;
+    bottom: 0;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+}
+
+.footer_text h3 , .footer_text p{
+    color: var(--white);
+    padding: 5px 0;
+}
+
+.footer_text h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer_text p{
+    font-size: 13.5px;
+}
+
+footer .btn {
+    padding: 17px 40px;
+    border-radius: 30px;
+}
