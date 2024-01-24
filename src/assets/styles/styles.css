@@ -1,5 +1,8 @@
+
+
 body {
-    background-color: #000000;
+    background-color: var(--dark);
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar{
@@ -12,13 +15,13 @@ body {
 }
 
 .sidebar-navigation{
-    background-color: #121212;
+    background-color: var(--light-dark);
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar-navigation .logo{
-    background-color: #121212;
+    background-color: var(--light-dark);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -41,15 +44,13 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
-    font-family: 'DM Sans' , sans-serif;
-    
 }
 .sidebar nav ul li a span{
-    color: #a9a7a7;
+    color: var(--light-gray);
     transition: 0.3s all;
 }
 .sidebar nav ul li a:hover span{
-    color: #ffffff;
+    color: var(--white);
     transition: 0.3s all;
 }
 
@@ -60,7 +61,7 @@ body {
 
 
 .header-biblioteca {
-    background-color: #121212;
+    background-color: var(--light-dark);
     border-radius: 8px;
     padding: 10px 16px 14px 16px;
     
@@ -72,14 +73,13 @@ body {
 }
 
 .nav-padrao{
-    background-color: #303030;
+    background-color: var(--gray);
     border-radius: 8px;
     padding: 19px 0 14px 16px;
 }
 
 .nav-padrao p , .nav-padrao span {
-    color: #ffffff;
-    font-family: 'DM Sans' , sans-serif;
+    color: var(--white);
     font-weight: 600;
     padding: 0 0 10px 0;
 }
@@ -97,7 +97,6 @@ body {
     text-decoration: none;
     border-radius: 16px;
     padding: 9px 16px;
-    font-family: 'DM Sans' , sans-serif;
     font-size: 14px;
     font-weight: 600;
     display: inline-block;   
@@ -111,8 +110,8 @@ body {
 }
 
 .btn-primary {
-    color: #000000;
-    background-color: #ffffff;
+    color: var(--dark);
+    background-color: var(--white);
 }
 
 .links-uteis {
@@ -133,7 +132,7 @@ body {
 }
 
 .links-uteis ul li a{
-    color: #a4a4a4;
+    color: var(--light-gray);
     font-size: 10.5px !important;   
 }
 .links-uteis ul li a:hover{
@@ -142,11 +141,11 @@ body {
 
 .btn-secondary{
     background-color: transparent;
-    color: #ffffff;
-    border: 0.5px solid #595959;
+    color: var(--white);
+    border: 1px solid var(--gray);
 }
 .btn-secondary:hover {
-    border: 1px solid #ffffff;
+    border: 1px solid var(--white);
 }
 
 footer{
@@ -163,8 +162,7 @@ footer{
 }
 
 .footer_text h3 , .footer_text p{
-    color: #ffffff;
-    font-family: 'DM Sans' , sans-serif;
+    color: var(--white);
     padding: 5px 0;
 }
 
