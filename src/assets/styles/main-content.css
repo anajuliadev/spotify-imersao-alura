@@ -3,7 +3,7 @@
 .main-container {
     position: fixed;
     width: 100%;
-    max-width: 80vw;
+    max-width: calc( 100% - 320px);
     height: 100vh;
     margin-left: 320px;
 }
