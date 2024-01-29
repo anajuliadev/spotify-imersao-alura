@@ -5,7 +5,7 @@
     width: 100%;
     max-width: calc( 100% - 320px);
     height: 100vh;
-    margin-left: 320px;
+    margin-left: 307px;
 }
 
 .header__navigation {
@@ -13,8 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    margin: 20px;
-    border-radius: 8px;
+    border-radius: 8px 0;
     background-color: var(--light-dark);
 }
 
@@ -108,8 +107,10 @@
 }
 
 
+/* PAGE PRINCIPAL - CARDS */
+
 .page-principal{
-    margin: 0 20px 0 20px;
+    padding: 0px 25px;
     background-color: var(--light-dark);
     background-image: linear-gradient(to bottom , var(--gray) , var(--light-dark) );
     height: calc((100% - 48px) - 60px);
