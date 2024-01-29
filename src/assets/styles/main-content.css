@@ -1,7 +1,6 @@
 /* HEADER */
 
 .main-container {
-    position: fixed;
     width: 100%;
     max-width: calc( 100% - 320px);
     height: 100vh;
@@ -11,6 +10,9 @@
 .header__navigation {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 84%;
+    height: 50px;
     align-items: center;
     padding: 16px;
     border-radius: 8px 0;
@@ -111,6 +113,9 @@
 
 .page-principal{
     padding: 0px 25px;
+    margin-top: 80px;
+    width: 98%;
+    height: calc(100% - 50px) !important;
     background-color: var(--light-dark);
     background-image: linear-gradient(to bottom , var(--gray) , var(--light-dark) );
     height: calc((100% - 48px) - 60px);
@@ -140,7 +145,8 @@
 
 .box-card {
     display: grid;
-    grid-template-columns: repeat(8 ,200px );
+    grid-template-columns: repeat(auto-fill ,200px );
+    margin-bottom: 40px;
     gap: 20px;
 }
 
