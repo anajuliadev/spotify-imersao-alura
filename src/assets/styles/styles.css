@@ -5,19 +5,21 @@ body {
     font-family: var(--font-dm-sans);
 }
 
+.pg {
+    padding: 7px;
+}
+
 .sidebar{
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    padding: 12px;
     width: 300px;
 }
 
 .sidebar-navigation{
     background-color: var(--light-dark);
     border-radius: 8px;
-    padding: 16px 0 0 16px;
 }
 
 .sidebar-navigation .logo{
@@ -33,7 +35,7 @@ body {
 
 .sidebar nav ul {
     margin-top: 15px;
-    padding: 0 20px 10px 20px;
+    padding: 0 20px 0px 20px;
 }
 
 .sidebar nav ul li{
@@ -63,7 +65,7 @@ body {
 .header-biblioteca {
     background-color: var(--light-dark);
     border-radius: 8px;
-    padding: 10px 16px 14px 16px;
+    padding: 10px 16px 50px 20px;
     
 }
 
@@ -72,10 +74,17 @@ body {
     justify-content: space-between;
 }
 
-.nav-padrao{
+.agrupe-box{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.header-biblioteca .nav-padrao {
+    
     background-color: var(--gray);
     border-radius: 8px;
-    padding: 19px 0 14px 16px;
+    padding: 19px 0 25px 16px;
 }
 
 .nav-padrao p , .nav-padrao span {
@@ -144,6 +153,7 @@ body {
     background-color: transparent;
     color: var(--white);
     border: 1px solid var(--gray);
+    margin-left: 18px;
 }
 .btn-secondary:hover {
     border: 1px solid var(--white);
