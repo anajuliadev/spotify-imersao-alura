@@ -153,9 +153,15 @@
 .card{
     position: relative;
 }
+.card:hover .fa-play{
+    display: block;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    bottom: 110px;
+}
 
 .card .fa-play{
-    display: none;
+    opacity: 0;
     background-color: #1FDF64;
     height: 20px;
     width: 20px;
@@ -167,6 +173,8 @@
     position: absolute;
     z-index: 9999;
     left: 120px;
+    bottom: 96px;
+    transition: 0.3s ease-in-out;
 }
 
 .box-card .card {
