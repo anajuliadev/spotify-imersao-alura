@@ -1,0 +1,33 @@
+.page-container{
+    
+}
+.page-buscar{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,200px );
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.page-buscar .box-secoes {
+    width: 100%;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.page-buscar .box-secoes h4{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.page-buscar .box-secoes img{
+    width: 140px;
+    transform: rotate(30deg);
+    position: absolute;
+    right: -40px;
+    top: 80px;
+    
+}
