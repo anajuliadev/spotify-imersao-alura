@@ -1,0 +1,12 @@
+{
+    "artists": [
+      { "id": 1, "name": "Lana Del Rey", "genre": "Indie", "urlImg": "https://m.media-amazon.com/images/I/71v9YKQxm2L._UF1000,1000_QL80_.jpg" },
+      { "id": 2, "name": "Kiss", "genre": "Rock", "urlImg": "https://images.squarespace-cdn.com/content/v1/565c1ab5e4b05079e4bfa169/6fe71f58-f4e4-4561-a14b-9f66aa2b44ff/KISS+Dynasty+Album+Cover.jpg" },
+      { "id": 3, "name": "Aurora", "genre": "Indie", "urlImg": "https://artrockstore.com/cdn/shop/products/9d5b99f8dd1caf6d3631254d711082fd_grande.jpg?v=1683179963" },
+      { "id": 4, "name": "Mistiki", "genre": "Indie", "urlImg": "https://boomerangmusic.com.br/wp-content/uploads/2023/08/mini-TheLandIsInhospitableAlbumArt.jpg" },
+      { "id": 5, "name": "Yungblud", "genre": "Alternative", "urlImg": "https://m.media-amazon.com/images/I/51FUcUza-jL._UF1000,1000_QL80_.jpg" },
+      { "id": 6, "name": "Bts", "genre": "Kpop", "urlImg": "https://m.media-amazon.com/images/I/61ZLokDM1hL._UF1000,1000_QL80_.jpg" },
+      { "id": 7, "name": "Lady Gaga", "genre": "Pop", "urlImg": "https://i.scdn.co/image/ab67616d0000b2735c9890c0456a3719eeecd8aa" }
+    ]
+}
+  
