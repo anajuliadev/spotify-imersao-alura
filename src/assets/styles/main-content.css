@@ -6,7 +6,7 @@
     height: 100%;
     overflow: hidden;
     position: relative;
-    
+    border-radius: 10px;
 }
 
 .header__navigation {
@@ -17,8 +17,7 @@
     width: 100%;
     height: 70px;
     align-items: center;
-    padding: 10px;
-    border-radius: 8px 0;
+    padding: var(--gap);
     background-color: var(--light-dark);
 }
 
@@ -115,9 +114,10 @@
 /* PAGE PRINCIPAL - CARDS */
 
 .page-principal{
-    padding: 0px 25px;
+    padding: 20px 25px 40px 25px;
     background-color: var(--light-dark);
     background-image: linear-gradient(to bottom , var(--gray) , var(--light-dark) );
+    height: calc(100% - 70px);
     margin-top: 70px;
     overflow-y: scroll;
 }
@@ -154,27 +154,29 @@
 .card{
     position: relative;
 }
-.card:hover .fa-play{
-    display: block;
+.card:hover .icon-play{
     opacity: 1;
     transition: 0.3s ease-in-out;
     bottom: 110px;
 }
 
-.card .fa-play{
+.card .icon-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 0;
     background-color: #1FDF64;
-    height: 20px;
-    width: 20px;
     text-align: center;
-    padding: 14px;
+    width: 45px;
+    height: 45px;
     font-size: 20px;
     border-radius: 50px;
     border: none;
     position: absolute;
     z-index: 9999;
-    left: 120px;
+    right: 40px;
     bottom: 96px;
+    cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
