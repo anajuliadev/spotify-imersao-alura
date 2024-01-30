@@ -2,7 +2,7 @@
 
 
 .main-container {
-    grid-area: main container;
+    grid-area: main-container;
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -176,7 +176,6 @@
     z-index: 9999;
     right: 40px;
     bottom: 96px;
-    cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
@@ -195,10 +194,11 @@
 .card:hover{
     background: linear-gradient(to top , #282828 , #282828);
     transition: 0.8s ease-out;
+    cursor: pointer;
 }
 
 .box-card .card img{
-    width: 150px;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;
     filter: drop-shadow(2px 4px 6px black);
