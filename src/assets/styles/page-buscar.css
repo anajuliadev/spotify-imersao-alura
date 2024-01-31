@@ -1,6 +1,3 @@
-.page-container{
-    
-}
 .page-buscar{
     display: grid;
     grid-template-columns: repeat(auto-fill ,200px );
@@ -10,12 +7,17 @@
 
 .page-buscar .box-secoes {
     width: 100%;
-    padding: 20px;
-    background-color: aqua;
+    padding-top: 100%;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
     
+}
+
+.box-secoes .agrupe-secoes{
+    position: absolute;
+    inset: 0;
+    padding: 15px;
 }
 .page-buscar .box-secoes h4{
     color: var(--white);
@@ -30,4 +32,41 @@
     right: -40px;
     top: 80px;
     
+}
+
+.card1 {
+    background-color: rgb(0, 100, 80);
+}
+.card2 {
+    background-color: rgb(132, 0, 231);
+}
+.card3 {
+    background: rgb(30, 50, 100);
+}
+.card4 {
+    background: rgb(140, 25, 50);
+}
+.card5 {
+    background: rgb(232, 17, 91);
+}
+.card6 {
+    background: rgb(83, 122, 161);
+}
+.card7 {
+    background: rgb(142, 102, 172);
+}
+.card8 {
+    background: rgb(20, 138, 8);
+}
+.card9 {
+    background: rgb(30, 50, 100);
+}
+.card10 {
+    background: rgb(233, 20, 41);
+}
+.card11 {
+    background: rgb(80, 55, 80);
+}
+.card12 {
+    background: rgb(216, 64, 0);
 }
