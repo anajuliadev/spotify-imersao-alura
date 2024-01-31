@@ -180,9 +180,6 @@
 }
 
 .box-card .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom , #121212 ,#181818);
     padding: 20px;
@@ -208,7 +205,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-left: 10px; 
 }
 .card h5 {
     color: var(--white);
@@ -220,5 +216,9 @@
     color: var(--light-gray);
     font-size: 15px;
     font-weight: 500;
+}
+
+.hidden{
+    display: none;
 }
 
